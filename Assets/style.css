@@ -1,0 +1,219 @@
+#container-global{
+    border-top: transparent solid 1px;
+}
+#container-header{
+    margin: 30px;
+}
+#container-header h1{
+    font-size: 25px;
+    color: #4BBEBB;
+    text-align: center;
+    font-weight: 600;
+}
+#container-header h2{
+    color: rgb(177, 231, 0);
+    text-align: center;
+    font-weight: 500;
+}
+#container-header p{
+    color: #838383;
+    text-align: start;
+    padding-top: 10px;
+}
+/* main-------------------------------------------------------------------- */
+
+#container-part1{
+    background-color: #00a597 ;
+    box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.315);
+    height: 300px;
+}
+#part1{
+    margin: 30px;
+    padding-top: 20px;
+    color: white;
+    
+}
+#part1 h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#preço{
+    display: inline;
+    font-size: 30px;
+    font-weight: 500;
+    }
+
+#botão{
+    width: 200px;
+    height: 35px;
+    display: flex;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(178, 224, 24);
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.568) 1px 1px 10px;
+}
+#container-part2{
+    background-color: #4BBEBB ;
+    box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.096);
+    border-top: transparent solid 1px;
+    height: 300px;
+}
+#part2{
+    margin: 30px;
+    color: white;
+    height: 230px;
+    }
+
+#part2 h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+#part2 ul{
+    padding-top: 10px;
+    
+}
+#part2 li{
+line-height: 22px;
+}
+#part2 a{
+    color: white;
+    font-size: 14px;
+    
+}
+
+
+
+@media (min-width:765px) {
+    #container-header{
+        margin: 30px;
+    }
+    #container-header h1{
+        font-size: 50px;
+        color: #4BBEBB;
+        text-align: center;
+        font-weight: 600;
+    }
+    #container-header h2{
+        color: rgb(177, 231, 0);
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    #container-header p{
+        color: #838383;
+        text-align: center;
+        padding-top: 10px;
+    }
+    /* main-------------------------------------------------------------------- */
+    
+    #container-part1{
+        background-color: #00a597 ;
+        box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.315);
+        height: 300px;
+        width: 400px;
+        margin: auto;
+        
+    }
+    #part1{
+        margin: 30px;
+        padding-top: 20px;
+        color: white;
+        
+    }
+    #part1 h2{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    #preço{
+        display: inline;
+        font-size: 40px;
+        font-weight: 500;
+        }
+    #part1 h3{
+        font-size: 20px;
+    }
+    
+    #botão{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        font-size: 20px;
+        margin: auto;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(178, 224, 24);
+        border: none;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.568) 1px 1px 10px;
+    }
+    #container-part2{
+        background-color: #4BBEBB ;
+        box-shadow: 0px -2px 3px 0px rgba(0, 0, 0, 0.096);
+        border-top: transparent solid 1px;
+        height: 300px;
+        width: 400px;
+        margin: auto;
+        margin-bottom: 50px;
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.322);
+    }
+    #part2{
+        margin: 30px;
+        color: white;
+        height: 300px;
+        }
+    
+    #part2 h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #part2 ul{
+        padding-top: 10px;
+        
+    }
+    #part2 li{
+    line-height: 28px;
+    }
+    #part2 a{
+        color: white;
+        font-size: 18px;
+        }
+    }
+
+@media(min-width:1024px){
+   #container-global{
+       
+       width: 100%;
+       background-color: rgba(241, 241, 241, 0.308);
+   }
+    #container-bg{
+       
+       width: 90%;
+       margin: 50px;
+       background-color: white;
+       border-radius: 10px;
+       box-shadow: rgba(0, 0, 0, 0.061) 3px 3px 5px;
+       
+   }
+    #container-main{
+        display: flex;
+        height: 400px;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+        
+    }
+    #container-part1{
+        box-shadow: none;
+    }
+    #container-part2{
+        box-shadow: none;
+    }
+}
